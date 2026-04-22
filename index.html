@@ -1,53 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Tecnologia</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Portal Tech</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Portal de Tecnologia</h1>
-    <nav>
-        <a href="#">Início</a>
-        <a href="#noticias">Notícias</a>
-        <a href="#curiosidades">Curiosidades</a>
-        <a href="#tendencias">Tendências</a>
-        <a href="sobre.html">Sobre</a>
-    </nav>
+  <div class="logo">Portal Tech 🚀</div>
+
+  <nav>
+    <a href="#noticias">Notícias</a>
+    <a href="#tendencias">Tendências</a>
+    <a href="#reviews">Reviews</a>
+    <a href="sobre.html">Sobre</a>
+  </nav>
 </header>
 
-<main>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>O futuro da tecnologia</h1>
+    <p>Fique por dentro das últimas novidades, tendências e curiosidades.</p>
+  </div>
+</section>
 
-    <section id="noticias">
-        <h2>Notícias</h2>
-        <p>Nova inteligência artificial está revolucionando o mercado de trabalho.</p>
-    </section>
+<!-- NOTÍCIAS -->
+<section id="noticias" class="container">
+  <h2>Últimas Notícias</h2>
 
-    <section id="curiosidades">
-        <h2>Curiosidades</h2>
-        <p>O primeiro computador do mundo ocupava uma sala inteira e tinha menos poder que um celular atual.</p>
-    </section>
+  <div class="grid">
 
-    <section id="tendencias">
-        <h2>Tendências Tecnológicas</h2>
-        <ul id="lista"></ul>
-        <button onclick="adicionarItem()">Adicionar tendência</button>
-    </section>
+    <div class="card destaque">
+      <h3>Inteligência Artificial domina o mercado</h3>
+      <p>Empresas estão investindo bilhões em IA.</p>
+    </div>
 
-    <section>
-        <h2>Interação</h2>
-        <button onclick="mostrarMensagem()">Clique aqui</button>
-    </section>
+    <div class="card">
+      <h3>Novo iPhone lançado</h3>
+      <p>Mais rápido e eficiente.</p>
+    </div>
 
-</main>
+    <div class="card">
+      <h3>Google aposta em IA</h3>
+      <p>Novos avanços impressionam.</p>
+    </div>
+
+    <div class="card">
+      <h3>Startups crescem no Brasil</h3>
+      <p>Investimentos aumentam.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- TENDÊNCIAS -->
+<section id="tendencias" class="container">
+  <h2>Tendências</h2>
+
+  <div class="grid simples">
+    <div class="tag">IA Generativa</div>
+    <div class="tag">Realidade Aumentada</div>
+    <div class="tag">Computação Quântica</div>
+    <div class="tag">Carros Autônomos</div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="container">
+  <h2>Reviews</h2>
+
+  <div class="grid">
+    <div class="card"><h3>Notebook Gamer</h3><p>Alto desempenho.</p></div>
+    <div class="card"><h3>Smartphone</h3><p>Ótimo custo-benefício.</p></div>
+    <div class="card"><h3>Fone Bluetooth</h3><p>Som excelente.</p></div>
+  </div>
+</section>
 
 <footer>
-    <p>Grupo 1 - Projeto SENAI</p>
+  <p>© 2026 Portal Tech</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
