@@ -4,23 +4,31 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Cabeçalho */
 header {
-    background-color: #222;
+    background-color: #1e1e1e;
     color: white;
     padding: 15px;
     text-align: center;
+}
+
+/* Menu */
+nav {
+    margin-top: 10px;
 }
 
 nav a {
     color: #00d4ff;
     margin: 0 10px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+/* Conteúdo */
 main {
     padding: 20px;
 }
@@ -32,21 +40,24 @@ section {
     border-radius: 8px;
 }
 
+/* Botões */
 button {
     padding: 10px;
     background-color: #00d4ff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 button:hover {
     background-color: #009ec3;
 }
 
+/* Rodapé */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #222;
+    background-color: #1e1e1e;
     color: white;
 }
